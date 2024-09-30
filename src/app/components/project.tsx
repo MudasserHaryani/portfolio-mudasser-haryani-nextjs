@@ -1,3 +1,4 @@
+'Use client'
 import Image from 'next/image'
 import React from 'react'
 
@@ -72,7 +73,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/assets/project/project-2.png')}
+            src={require('../../../public/assets/project/project-3.png')}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -82,11 +83,11 @@ const Project = () => {
               GIAIC Hackathon
             </h1>
             <p className="leading-relaxed line-clamp-3">
-              This is my Second project which I've created using HTML, CSS and Typescript for my hackathon project for GIAIC.
+              This is my GIAIC honework assignment project which I've created using NextJS, Typescript, and Tailwind for myhomework assignment for GIAIC.
             </p>
             <a 
             target='_blank'
-            href='https://milestone5-shareable-resume-builder-six.vercel.app/'>
+            href='https://class-3-homework-assignment-wed7to10-mudasser-haryani.vercel.app/'>
             <p className='Leading-relaxed text-blue-500 hover:underline'>View Projects..</p>
             </a>
           </div>
