@@ -77,13 +77,13 @@ const Project = () => {
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-              Interactive Resume Generator
+              Home work assignment given on wed 25-sep-2024
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              GIAIC Hackathon
+              GIAIC Class Homework
             </h1>
             <p className="leading-relaxed line-clamp-3">
-              This is my GIAIC honework assignment project which I've created using NextJS, Typescript, and Tailwind for myhomework assignment for GIAIC.
+              This is my GIAIC honework assignment project which I've created using NextJS, Typescript, and Tailwind for my homework assignment for GIAIC.
             </p>
             <a 
             target='_blank'

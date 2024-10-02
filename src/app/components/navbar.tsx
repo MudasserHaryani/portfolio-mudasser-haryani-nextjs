@@ -7,8 +7,8 @@ import { BsYoutube, BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="bg-white z-50 sticky top-0">
-      <header className="text-gray-600 body-font">
+    <div className="bg-gray-400 z-50 sticky top-0">
+      <header className="text-gray-900 body-font">
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center justify-between">
           
           {/* Logo */}
@@ -25,11 +25,11 @@ const Navbar = () => {
           
           {/* Navigation Links */}
           <nav className="flex flex-wrap items-center text-base justify-center">
-            <Link href="/" className="mr-5 hover:text-gray-900">Home</Link>
-            <Link href="#about" className="mr-5 hover:text-gray-900">About</Link>
-            <Link href="#skills" className="mr-5 hover:text-gray-900">Skills</Link>
-            <Link href="#project" className="mr-5 hover:text-gray-900">Project</Link>
-            <Link href="#Contact" className="mr-5 hover:text-gray-900">Contact</Link>
+            <Link href="/" className="mr-5 hover:text-blue-900">Home</Link>
+            <Link href="#about" className="mr-5 hover:text-blue-900">About</Link>
+            <Link href="#skills" className="mr-5 hover:text-blue-900">Skills</Link>
+            <Link href="#project" className="mr-5 hover:text-blue-900">Project</Link>
+            <Link href="#Contact" className="mr-5 hover:text-blue-900">Contact</Link>
           </nav>
 
           {/* Social Media Icons and CV Button - Aligned to the Right Side */}
